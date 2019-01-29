@@ -11,8 +11,6 @@ The student should read the following blogs:
 
 Now you can discuss with your classmates :stuck_out_tongue_winking_eye:.
 
-Ask to Salvador, Alfonso or Adriana about the course, philosophy, ideas, projects or any.
-
 
 Remember professor is not a :cop:, professor is a advisor who wants to discover differents things about 
 programming.
