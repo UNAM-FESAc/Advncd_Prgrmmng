@@ -5,7 +5,7 @@ This is a repository for the programming course 2019-I in FESAc.
 
 
 ## Exercise for the begginners
-The student has to read follow blogs:
+The student should read the following blogs:
 - [7 secrets...](https://www.codementor.io/codementorteam/7-secrets-to-staying-motivated-when-learning-to-code-a2dy7hqar) 
 - [To motivate myself...](https://www.quora.com/What-can-I-do-to-motivate-myself-for-programming-regularly-for-4-6-hours)
 

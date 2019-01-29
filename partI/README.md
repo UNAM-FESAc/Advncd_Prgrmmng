@@ -1,16 +1,16 @@
-#Ejercicios:
+# Ejercicios:
 - *00estruc.c*--*07estruc.c* Observa que 
 	- al final de la estructura se debe colocar ";" (punto y coma) 
 	- la ubicación de la definición; 
 	- los tipos de datos. Los ejemplos y 
 	- la forma de declarar una variable de estructura.
----
+___
 De esta definicion puedes notar que struct es una palabra reservada 
 del lenguaje C y point es un nombre que identifica la estructura.
 
 Los miembros pueden ser variables, punteros, arreglos u otras 
 estructuras.
----
+___
 
 - *08struct.c* En este codigo implementamos el operador de miembro. 
 	- Crea otras variables de estructura y define sus datos.
