@@ -13,10 +13,10 @@ Puedes usar el repositorio que está en el la siguiente liga [:link:](https://gi
 	con los datos ingresados.
 
 ## Ejercicios:
-	- *10array.c* Incrementa el número de elementos en el arreglo e 
+- *10array.c* Incrementa el número de elementos en el arreglo e 
 	inicializa algunos elementos en valores diferentes de cero. Por ejemplo:
 	incializa los elementos [1], [2] en 10.0 y 105.3, respectivamente.
 	Observa lo que sucede y comenta tu resultado con los demás compañeros.
-	- Crea un arreglo con los días de los meses del año, inicialialice los meses 
+- Crea un arreglo con los días de los meses del año, inicialialice los meses 
 	4, 6 y 12 en cero.
-	- *11array.c* Discute lo que se realiza en este código.
+- *11array.c* Discute lo que se realiza en este código.
