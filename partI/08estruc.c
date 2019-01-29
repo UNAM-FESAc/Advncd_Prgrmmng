@@ -1,8 +1,8 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include<stdio.h>
 
-/*
-En este codigo implementamos el operador de miembro. 
-*/
 
 
 struct corredor{
@@ -11,12 +11,12 @@ struct corredor{
 	float altura;
 	float califi;
 } crrdr1={
-	"Javier Orduz",
+	"Pepe Perez",
 	20,
 	1.8,
 	9.0}, 
   crrdr2={
-	"Andres Ducuara",
+	"Paco Diaz",
 	23,
 	1.7,
 	8.0};

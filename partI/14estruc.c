@@ -1,3 +1,7 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
+
 #include<stdio.h>
 
 // Declaracion de un arreglo de estructuras 
@@ -10,7 +14,7 @@ char editorial[30];
 int anio;
 };
 
-// Declaracion de una variable de estructura
+// Declaracion una variable-arreglo de estructuras.
 struct Todos_Libros libros[100];
 
 

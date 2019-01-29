@@ -1,3 +1,7 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
+
 #include<stdio.h>
 
 
@@ -41,4 +45,3 @@ printf("ZZ=%.1f\n", ZZ);
 
 
 }
-

@@ -1,49 +1,21 @@
-#include <stdio.h>
-// para usar la funcion de biblioteca tolower() que convierte las mayusculas 
-// en minusculas
-#include <ctype.h>
-
-enum booleano
-{
-FALSE, TRUE
-};
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
 
-enum booleano vocal(char c);
+enum NOMBRE{enumerador1, numerador2,..,numeradorn };
 
 
-void main()
-{
-char car;
-int numvocal=0;
+/*
+El NOMBRE se refiere al nombre de la enum y 
+enumeradori son los valores de tipo NOMBRE, 
+estos valores se inicializan en 0, 1,...
+Si desea cambiar los valores debe implementar (ver ejemplo)
+*/
 
-puts("\t\t\tIntroduce un texto\n");
-puts("\t(Para terminar: Intro)\n");
-
-while((car = getchar())!= '\n')
-{
-if (vocal(tolower(car))) 
-{
-	numvocal++;
-}
-}
-printf("\n Total de vocales leidas: %d\n",numvocal);
-}
+enum valores_numer{
+	enumerador1=0, 
+	numerador2=1,
+	numerador=12 };
 
 
-
-enum booleano vocal(char c)
-{
-switch(c)
-{
-case 'a':
-case 'e':
-case 'i':
-case 'o':
-case 'u':
-return TRUE;
-default:
-return FALSE;
-}
-}
 

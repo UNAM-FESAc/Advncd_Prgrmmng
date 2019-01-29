@@ -1,7 +1,10 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include<stdio.h>
 
 
-	// declaramos la estructura con rotulo complejo
+	// definimos (sin inicializar) la estructura con rotulo complejo
 
 struct complejo{
   float pre;

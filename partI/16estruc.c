@@ -1,8 +1,10 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include<stdio.h>
 #include<string.h>
 
-// Declaracion de un arreglo de estructuras 
-// de 100 elementos denominado libros
+
 struct Todos_Libros
 {
 char titulo[30];
@@ -17,7 +19,10 @@ int main()
 {
 
 int i;
-// Declaracion de una variable de estructura
+
+// Declaracion de un arreglo de estructuras 
+// de 100 elementos denominado libros
+
 struct Todos_Libros libros[100];
 
 // Inicializacion (Definicion) de los miembros

@@ -1,3 +1,6 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include<stdio.h>
 #include <string.h>
 
@@ -13,13 +16,12 @@ struct estudiante{
 int main(){
 
   // Declaramos dos variables de estructura: una ordinaria y un puntero
-  struct estudiante estudiante1, *pointer_estu;
+  struct estudiante estudiante1, * pointer_estu;
   
   // para referenciar el apuntador a la direccion de memoria del estudiante 1.
   pointer_estu = &estudiante1;
 
   // Asignamos datos a la estructura
-  //usamos la funcion de biblioteca para copiar cadenas y apuntamos a miembro.
   strcpy(pointer_estu -> nombre_estu, "Jose Perez");
   pointer_estu -> codigo_estu = 21212;
   pointer_estu -> califi_estu = 9.5;
@@ -31,9 +33,3 @@ int main(){
   return 0;
 }
 
-
-/*
-En este codigo implementamos el uso del operador puntero cuya estructura general es:
-puntero_estructura -> nombre_miembro = datos;
-
-*/

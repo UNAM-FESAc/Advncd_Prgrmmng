@@ -1,4 +1,6 @@
-// Ejemplo del registro de los participantes de una carrera
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 
 struct corredor
 {
@@ -9,6 +11,6 @@ struct corredor
 	float tiempo;
 };
 
-// La definicion de las variables de estructura es:
+// La declaracion de las variables de estructura
 
 struct corredor c1, c2, c3
