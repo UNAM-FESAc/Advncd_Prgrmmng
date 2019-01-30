@@ -1,7 +1,8 @@
 # Course: Programming II
 *By: Javier A. Orduz-Ducuara*
 
-This is a repository for the programming course 2019-I in FESAc. 
+This is a repository for the programming course 2019-II holding
+in FESAc. 
 
 
 ## Exercise for the begginners
