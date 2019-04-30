@@ -1,0 +1,135 @@
+
+% latex nombre_archivo.tex
+% dvipdf nombre_archivo.dvi
+\documentclass{article}
+\usepackage{pstricks}
+\usepackage{xcolor}
+
+\title{My document about graphics}
+\author{J. A. Orduz-Ducuara}
+\date{23 de abril}
+
+\begin{document}
+\maketitle
+\section{My first document on graphics with \LaTeX}
+In this document we will explore 
+the \verb|pstricks| package.
+We study some options, the reader has to check the information 
+and more
+(for instance in my mac: 
+/usr/local/texlive/2017/texmf-dist/doc/generic/pstricks
+)
+The general form to implement the 
+tool is:\\
+
+\begin{verbatim}
+\begin{pspicture}([Xmin],[Ymin])([Xmax],[Ymax])
+...[COMANDOS]
+\end{pspicture}
+\end{verbatim}
+
+\subsection{How can I create a vertical line?}
+\begin{pspicture}(6,3)
+  \psline[linestyle=dashed](6, 0)(6, 3)
+ \end{pspicture}
+ 
+\noindent where we use
+with \verb|\begin{pspicture}(x0, y0)(x1, y1)|
+is the size of the picture. 
+And to create a line
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline[linestyle=dashed](0, 0)(0, 3)
+ \end{pspicture}
+\end{verbatim}
+
+We can change the options and introduce other:
+
+
+
+or we can explore other line type:
+\begin{pspicture}(4,3) \psset{arrowscale=2,linewidth=1pt}
+\psline{]-[}(4,0)
+\psline{)-(}(0,1)(4,1)
+\psline{)->}(0,2)(4,2)
+\psline{]->>}(0,3)(4,3)
+\end{pspicture}
+
+
+
+
+
+We should plot a complex graphics.\\
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+ \end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+ \end{pspicture}
+\end{verbatim}
+
+
+or \\
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+\end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+\end{pspicture}
+\end{verbatim}
+
+and\\
+
+\begin{pspicture}(3,3)
+  \psline{<->}(0,3)(0, 0)(3, 0)
+ \end{pspicture}
+
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0,3)(0, 0)(3, 0)
+ \end{pspicture}
+\end{verbatim}
+
+\subsection{To create circles}
+  
+
+\begin{pspicture}(0.5\linewidth,4)
+  \pscircle[fillstyle=vlines,
+  hatchangle=0,
+  hatchsep=0.6pt,    hatchwidth=1pt,
+  hatchwidthinc=0.3pt,hatchangle=90, 
+  hatchcolor=red](10,-10){5}
+%  \pscircle[fillstyle=vlines,hatchangle=0,hatchsep=0.6pt,%
+%    hatchwidth=1pt,hatchwidthinc=0.3pt,hatchangle=-45,
+%    hatchcolor=green](7,2){2}
+%  \pscircle[fillstyle=hlines,hatchangle=0,hatchsep=0.6pt,%
+%    hatchwidth=1pt,hatchwidthinc=0.3pt,hatchangle=45,
+%                                                 hatchcolor=blue](12,2){2}
+\end{pspicture}
+
+
+\begin{pspicture}(-5, -5)(5, 5)
+\pscircle[linecolor=blue,linestyle=dotted](1,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](2,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](3,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](4,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](5,1.5){1}
+\end{pspicture}
+
+where we use
+\begin{verbatim}
+\begin{pspicture}(0, 0)(0, 5)
+\pscircle[linecolor=blue,linestyle=dashed](1,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](2,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](3,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](4,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](5,1.5){1}
+\end{pspicture}
+\end{verbatim}
+
+\end{document}

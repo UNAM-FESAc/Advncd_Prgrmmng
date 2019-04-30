@@ -1,0 +1,127 @@
+
+% latex nombre_archivo.tex
+% dvipdf nombre_archivo.dvi
+
+\documentclass{article}
+\usepackage{pstricks}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\title{My document about graphics}
+\author{J. A. Orduz-Ducuara\\
+jaorduz@apolo.acatlan.unam.mx}
+\date{Agosto 11}
+
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{My first document on graphics with \LaTeX}
+In this document we will explore 
+the \verb|pstricks| package.
+We study some options, the reader has to check the information 
+and more
+(for instance in my mac: 
+/usr/local/texlive/2017/texmf-dist/doc/generic/pstricks
+)
+The general form to implement the 
+tool is:\\
+
+\begin{verbatim}
+\begin{pspicture}([Xmin],[Ymin])([Xmax],[Ymax])
+...[COMANDOS]
+\end{pspicture}
+\end{verbatim}
+
+\subsection{How can I create a vertical line?}
+
+\begin{pspicture}(3,3)
+  \psline[linestyle=dashed](10, 0)(10, 3)
+ \end{pspicture}
+ 
+\noindent where we use
+with \verb|\begin{pspicture}(x0, y0)(x1, y1)|
+is the size of the picture. 
+And to create a line
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline[linestyle=dashed](0, 0)(0, 3)
+ \end{pspicture}
+\end{verbatim}
+
+or we can explore other line type:\\[5mm]
+\begin{pspicture}(4,3) %\psset{arrowscale=2,linewidth=1pt}
+\psline{]->>}(0,3)(4,3)
+\psline{)->}(0,2)(4,2)
+\psline{)-(}(0,1)(4,1)
+\psline{]-[}(4,0)
+\end{pspicture}\\
+
+
+
+
+
+We should plot a complex graphics.\\
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+ \end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+ \end{pspicture}
+\end{verbatim}
+
+
+or \\
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+\end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+\end{pspicture}
+\end{verbatim}
+
+and\\
+
+\begin{pspicture}(3,3)
+  \psline{<->}(0,3)(0, 0)(3, 0)
+ \end{pspicture}
+
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0,3)(0, 0)(3, 0)
+ \end{pspicture}
+\end{verbatim}
+
+\section{How to write a equation?}
+\begin{equation}
+\frac{\partial y}{\partial x } = x^2 + C 
+\end{equation}
+
+\begin{verbatim}
+\begin{equation}
+\frac{\partial y}{\partial x } = x^2 + C 
+\end{equation}
+\end{verbatim}
+
+
+{\bf{This is the derivate of the function.}}
+
+{\Huge\it{This is the Sebastian's demonstration.}}
+
+\begin{itemize}
+\item First\label{enu:uno}
+\item Second
+\item Third
+\end{itemize}
+
+The Sebastian's demonstration in 
+\ref{enu:uno} is given...
+
+
+\end{document}

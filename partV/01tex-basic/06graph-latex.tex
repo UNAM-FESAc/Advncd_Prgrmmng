@@ -1,0 +1,277 @@
+
+% latex nombre_archivo.tex
+% dvipdf nombre_archivo.dvi
+\documentclass{article}
+\usepackage{pstricks}
+\usepackage{pst-plot} 
+\usepackage{xcolor}
+
+\title{My document about graphics}
+\author{J. A. Orduz-Ducuara}
+\begin{document}
+\maketitle
+\section{My first document on graphics with \LaTeX}
+In this document we will explore 
+the \verb|pstricks| package.
+We study some options, the reader has to check the information 
+and more
+(for instance in my mac: 
+/usr/local/texlive/2017/texmf-dist/doc/generic/pstricks
+)
+The general form to implement the 
+tool is:\\
+
+\begin{verbatim}
+\begin{pspicture}([Xmin],[Ymin])([Xmax],[Ymax])
+...[COMANDOS]
+\end{pspicture}
+\end{verbatim}
+
+\subsection{How can I create a vertical line?}
+\begin{pspicture}(6,3)
+  \psline[linestyle=dashed](6, 0)(6, 3)
+ \end{pspicture}
+ 
+\noindent where we use
+with \verb|\begin{pspicture}(x0, y0)(x1, y1)|
+is the size of the picture. 
+And to create a line
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline[linestyle=dashed](0, 0)(0, 3)
+ \end{pspicture}
+\end{verbatim}
+
+We can change the options and introduce other:
+
+
+
+
+or we can explore other line type:
+\begin{pspicture}(4,3) \psset{arrowscale=2,linewidth=1pt}
+\psline{]-[}(4,0)
+\psline{)-(}(0,1)(4,1)
+\psline{)->}(0,2)(4,2)
+\psline{]->>}(0,3)(4,3)
+\end{pspicture}
+
+
+
+
+
+We should plot a complex graphics.\\
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+ \end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+ \end{pspicture}
+\end{verbatim}
+
+
+or \\
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+\end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0, 0)(3, 0)
+\end{pspicture}
+\end{verbatim}
+
+and\\
+
+\begin{pspicture}(3,3)
+  \psline{<->}(0,3)(0, 0)(3, 0)
+ \end{pspicture}
+
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+  \psline{<->}(0,3)(0, 0)(3, 0)
+ \end{pspicture}
+\end{verbatim}
+
+\subsection{To create circles}
+  
+
+\begin{pspicture}(0.5\linewidth,4)
+  \pscircle[fillstyle=vlines,hatchangle=0,hatchsep=0.6pt,%
+    hatchwidth=1pt,hatchwidthinc=0.3pt,hatchangle=90,
+    hatchcolor=red](2,2){2}
+  \pscircle[fillstyle=vlines,hatchangle=0,hatchsep=0.6pt,%
+    hatchwidth=1pt,hatchwidthinc=0.3pt,hatchangle=-45,
+    hatchcolor=green](7,2){2}
+  \pscircle[fillstyle=hlines,hatchangle=0,hatchsep=0.6pt,%
+    hatchwidth=1pt,hatchwidthinc=0.3pt,hatchangle=45,
+                                                 hatchcolor=blue](12,2){2}
+\end{pspicture}
+
+
+\begin{pspicture}(-5, -5)(5, 5)
+\pscircle[linecolor=blue,linestyle=dashed](1,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](2,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](3,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](4,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](5,1.5){1}
+\end{pspicture}
+
+where we use
+\begin{verbatim}
+\begin{pspicture}(0, 0)(0, 5)
+\pscircle[linecolor=blue,linestyle=dashed](1,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](2,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](3,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](4,1.5){1}
+\pscircle[linecolor=blue,linestyle=dashed](5,1.5){1}
+\end{pspicture}
+\end{verbatim}
+
+\subsection{Complex figures}
+
+\begin{pspicture}[showgrid](-4,-5)(4,7)
+    \psframe(-3,4)(3,5)
+    \psccurve(-3,2)(-1,2)(-1,3)(-1.5,2.5)
+    \pspolygon(1,2)(3,2)(2,3)
+    \pswedge(-2,0){1}{0}{270}
+    \psellipticwedge(2,0)(1,0.5){0}{270}
+    \pscircle(-2,-3){1}
+    \psellipse(2,-3)(1,0.5)
+\rput(0,6.5){This is a message}
+\end{pspicture}
+
+
+
+\begin{verbatim}
+\begin{pspicture}[showgrid](-4,-5)(4,7)
+    \psframe(-3,4)(3,5)
+    \psccurve(-3,2)(-1,2)(-1,3)(-1.5,2.5)
+    \pspolygon(1,2)(3,2)(2,3)
+    \pswedge(-2,0){1}{0}{270}
+    \psellipticwedge(2,0)(1,0.5){0}{270}
+    \pscircle(-2,-3){1}
+    \psellipse(2,-3)(1,0.5)
+\rput(0,6.5){This is a message}
+\end{pspicture}
+\end{verbatim}
+
+\begin{pspicture}(\linewidth,3)
+\psframe[fillstyle=hlines,hatchangle=0,hatchangle=-60,%
+    hatchwidth=1pt,hatchsep=0.5pt,hatchsepinc=0.1pt,
+    hatchcolor=blue](\linewidth,3)
+\end{pspicture}
+
+\noindent
+\begin{verbatim}
+\begin{pspicture}[showgrid](-4,-5)(4,7)
+    \psframe(-3,4)(3,5)
+    \psccurve(-3,2)(-1,2)(-1,3)(-1.5,2.5)
+    \pspolygon(1,2)(3,2)(2,3)
+    \pswedge(-2,0){1}{0}{270}
+    \psellipticwedge(2,0)(1,0.5){0}{270}
+    \pscircle(-2,-3){1}
+    \psellipse(2,-3)(1,0.5)
+\rput(0,6.5){This is a message}
+\end{pspicture}
+\end{verbatim}
+
+\begin{pspicture}[showgrid](-4,2)(4,7)
+\pscustom[fillstyle=eofill, fillcolor=red, opacity = 0.4, linecolor = white]
+{ 
+  \psframe(-3, 6)(3,7)
+}
+\pscustom[fillstyle=eofill, fillcolor=blue, opacity = 0.9]
+{ 
+  \psframe(-3, 4)(3, 5)
+  }
+\end{pspicture}
+
+
+
+\begin{verbatim}
+\begin{pspicture}[showgrid](-4,2)(4,7)
+\pscustom[fillstyle=eofill, fillcolor=red, opacity = 0.4, linecolor = white]
+{ 
+  \psframe(-3, 6)(3,7)
+}
+\pscustom[fillstyle=eofill, fillcolor=blue, opacity = 0.9]
+{ 
+  \psframe(-3, 4)(3, 5)
+  }
+\end{pspicture}
+\end{verbatim}
+
+\begin{pspicture}[showgrid](-5, -5)(5, 5)
+\pscurve[showpoints=true, dotsize=10pt, dotstyle=o, fillcolor=red]
+(0, 0)(1, 2)(2, 3)(2, -5)(0 ,0)
+\end{pspicture}
+
+\begin{verbatim}
+\begin{pspicture}(3, 5)
+\pscurve[showpoints=true, dotsize=20pt, dotstyle=o, fillcolor=red]
+(0, 0)(1, 2)(2, 3)(-2, -5)
+\end{pspicture}
+\end{verbatim}
+
+
+\begin{pspicture}[showgrid](-3,-3)(3, 3)
+\psbezier[showpoints=true, dotsize=20pt, dotstyle=o, fillcolor=red]
+(2, -2)(-2,-2)(0,2)(3, 3)
+\end{pspicture}
+
+
+\begin{verbatim}
+\begin{pspicture}(3,3)
+\psccurve[showpoints=true,
+dotsize=20pt,
+dotstyle=o,
+fillcolor=red]
+(0,0)(1,1)(1,2)(2,1)(1,0)
+\end{pspicture}
+\end{verbatim}
+
+
+\section{Functions on {\LaTeX}}
+
+\begin{pspicture}(-7.5,-3)(7.5,3)
+  \psaxes[labels=none](0,0)(-7,-2)(7,2)    % establece los ejes
+   \psplot[linecolor=blue, linewidth=1.5pt]
+     {-7}{7}{x 0.01745329252 div sin}      
+   
+ \psplot[linecolor=green, linewidth=1.5pt]
+     {-7}{7}{x 0.01745329252 div cos}    
+           
+   \uput[45](3.1415926,0){$\pi$}           % estas son las etiquetas
+   \uput[90](-1.570796,0){$-\pi/2$}        % \uput es una caja posicionada en [angulo]
+   \uput[-90](1.570796,0){$\pi/2$}         % relativo a la coordenada (x,y)
+   \uput[-135](-3.1415926,0){$-\pi$}       % y poniendo el { contenido } dentro de la caja
+   \psline[linewidth=1pt,linecolor=red,linestyle=dotted]%   % línea punteada roja
+     (1.57079632,1)(1.57079632,0) 
+   \psline[linewidth=1pt,linecolor=red,linestyle=dotted]%
+     (-1.57079632,-1)(-1.57079632,0) 
+ \end{pspicture}
+
+
+\begin{verbatim}
+\begin{pspicture}(-7.5,-3)(7.5,3)
+  \psaxes[labels=none, labelwidth=13.5pt](0,0)(-7,-2)(7,2)    % establece los ejes
+   \psplot[linecolor=blue, linewidth=1.5pt]% grafica una onda sinusoidal
+     {-7}{7}{x 0.01745329252 div sin}      % observar la expresión en 
+                                           % Notación Polaca Inversa
+   \uput[45](3.1415926,0){$\pi$}           % estas son las etiquetas
+   \uput[90](-1.570796,0){$-\pi/2$}        % \uput es una caja posicionada en [angulo]
+   \uput[-90](1.570796,0){$\pi/2$}         % relativo a la coordenada (x,y)
+   \uput[-135](-3.1415926,0){$-\pi$}       % y poniendo el { contenido } dentro 
+                                           % de la caja
+   \psline[linewidth=1pt,linecolor=red,linestyle=dotted]%   % línea punteada roja
+     (1.57079632,1)(1.57079632,0) 
+   \psline[linewidth=1pt,linecolor=red,linestyle=dotted]%
+     (-1.57079632,-1)(-1.57079632,0) 
+ \end{pspicture}
+\end{verbatim}
+
+
+\end{document}

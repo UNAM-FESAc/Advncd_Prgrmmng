@@ -1,0 +1,39 @@
+\documentclass{article}
+
+\usepackage{pstricks}
+\usepackage{xcolor}
+
+\title{My document about graphics}
+\author{J. A. Orduz-Ducuara}
+
+
+\begin{document}
+\maketitle
+\section{My first document on graphics with \LaTeX}
+In this document we will explore 
+the \verb|pstricks| package.
+We study some options, the reader has to check the information 
+and more
+(for instance in my mac: 
+/usr/local/texlive/2017/texmf-dist/doc/generic/pstricks
+)
+The general form to implement the 
+tool is:\\
+
+\begin{verbatim}
+\begin{pspicture}([Xmin],[Ymin])([Xmax],[Ymax])
+...[COMANDOS]
+\end{pspicture}
+\end{verbatim}
+
+\subsection{How can I create a vertical line?}
+
+\begin{pspicture}(6, 3)
+\psline[linestyle=dotted](2, 0)(2, 3)
+\psline[linestyle=dotted](3, 0)(3, 3)
+\psline(4, 0)(4, 3)
+\psline[linestyle=dashed](5, 0)(6, 3)
+ \end{pspicture}
+ 
+
+\end{document}
