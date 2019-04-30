@@ -1,3 +1,6 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include<stdio.h>
 
 void bin(int);
@@ -15,11 +18,9 @@ int main()
 }
 
 
-
 void bin(int num)
 {
    int aux;
-
    if(num!=0)
 {
    aux=num%2;

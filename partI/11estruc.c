@@ -1,8 +1,6 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
-// Ejemplo de una funcion y una estructura
-
 // Realizamos la declaracion rotulada de la estructura
 struct punto{
 

@@ -1,7 +1,7 @@
-# Course: Programming II
+# Course: Programming II (Advanced)
 *By: Javier A. Orduz-Ducuara*
 
-This is a repository for the programming course 2019-II holding
+This is a repository for the programming course 2019-II is hold 
 in FESAc. 
 
 
@@ -13,7 +13,7 @@ The student should read the following blogs:
 Now you can discuss with your classmates :stuck_out_tongue_winking_eye:.
 
 
-Remember professor is not a :cop:, professor is a advisor who wants to discover differents things about 
+Remember professor is not a :cop:, professor is a advisor who wants to discover different things about 
 programming.
 
    Object                                                         |  Porcentage  |
@@ -25,8 +25,9 @@ programming.
   Material, homeworks, SAE (web site) and code.org exercises |10 %          |
   
 ## Material
-Check the link ([:link:](http://sae.acatlan.unam.mx/)) use the data given for Salvador, Alfonso or Adriana to log in.
-Besides you can download the document use in the class [here](https://www.dropbox.com/s/b629jqs3aat7ohh/prgrmmng_II.pdf?dl=0).
+Check the link ([:link:](http://sae.acatlan.unam.mx/)) and log in (out).
+Besides you can download the document used in the class 
+[here](https://www.dropbox.com/s/b629jqs3aat7ohh/prgrmmng_II.pdf?dl=0).
 
 <!---
 ## Homework (Section is building, the final version will be ready the monday at 9:00am)

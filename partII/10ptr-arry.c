@@ -1,7 +1,5 @@
-/*
-
-Un nombre de un arreglo contiene la direccion del primer elemento del arreglo.
-*/
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
 #include<stdio.h>
 

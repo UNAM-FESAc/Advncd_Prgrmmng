@@ -1,24 +1,14 @@
-/*
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
-Porograma para imprimir el abecedario usando apuntadores.
-*/
 #include<stdio.h>
-
-char c;
-
 int main(){
-
-char * pcM; 
+char * pcM, c; 
 
 pcM = &c;
 
-
-
-for (c = 'A'; c<= 'Z'; c++)
-{
-
-	printf("%c\n", * pcM);
-
+for (c = 'A'; c<= 'Z'; c++){
+		printf("%c\n", * pcM);
 }
 
 return 0;

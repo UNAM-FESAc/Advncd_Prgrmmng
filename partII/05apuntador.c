@@ -1,20 +1,13 @@
-/*
-Vamos a ver un puntero a una cadena de caracteres.
-*/
-
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 #include<stdio.h>
-
 
 int main(){
 
-char *nombre="Javier Andres Orduz Ducuara.";
-//Es como un array de 28 caracteres
+char * nombre="Javier Orduz.";
 
-printf("%s",nombre);
+printf("%s\n", nombre);
 
+return 0;
 }
 
-/*
-Ya que la nombre es una constante de caracteres; entonces  
-no podemos modificarla despues de definir sus valores.
-*/

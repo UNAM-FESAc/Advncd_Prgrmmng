@@ -1,0 +1,17 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
+#include<stdio.h>
+#define N 5
+int main(){
+  int v[N]; 
+  int i, *p;
+  
+  for (i=0; i < N; i++) {v[i] = i;}
+  for (i=0; i < N; i++) {printf ("%d\n", v[i]);}
+
+  p = v;
+  for (i=0; i < N; i++){printf ("\t%d\n", *(p+i));}
+  return 0;
+}
+

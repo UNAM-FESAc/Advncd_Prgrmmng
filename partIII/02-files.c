@@ -1,40 +1,42 @@
-/*
-(Recuerdo que los textos implementados omiten acentos)
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
-Con este programa veremos como crear archivos externos en C.
+#include<stdio.h>//funcion principal
+#include<stdlib.h>
+#define n 3
+struct numeros{
+     int par;
+     int imp;   
+} _nume[n]={
+	{2,4},
+	{1,3}
+	};
+	
+struct letras{
+     char may;
+     char min;   
+} _letras[n]={
+	{'a','b'},
+	{'c', 'd'}
+	}; 
 
-Lo primero que debemos considerar es que usaremos el estandar <stdio.h>
-que nos permite usar varias funciones para la edicion de archivos.
+int main(){
+    int i,m;
+    FILE * pFile = fopen("02-files.txt", "w");    
 
-De forma general debes considerar las siguientes lineas:
+ for (i=0; i<=1;i++){
+fprintf(pFile, "%i %i \n", _nume[i].imp, _nume[i].par);
+   };
 
-1) Agregar un tipo 
-	FILE *Nom_apuntador
-2) Abrir el archivo con 
-	fopen("nombre_archivo.extension", "parametros")
+fprintf(pFile, "\n");
 
-	nombre_archivo.extension, debes darle un nombre al archivo.
+ for (i=0; i<=1;i++){
+fprintf(pFile, "\n%c %c\n", _letras[i].may, _letras[i].min);
+   };
 
-	parametros puede ser:
- 	- r abre para leer
- 	- w abre para crear nuevo archivo y escribir (pierde informacion, en caso de existir)
-	- a abre para escribir (crear) al final del archivo
-	- r+ abre un archivo para lectura y escritura de un archivo existente
-	- w+ crea o sobreescribe (en) un archivo para lectura y escritura(pierde informacion, 
-									en caso de existir)
-	Hay otros parametros que no discutiremos por el momento.
+   fclose(pFile);
 
-3) Cerrar el archivo con
-	  fclose (Nom_apuntador);
+   return 0;
+}
 
-4) Escribir algo en el archivo:
-	Podemos realizarlo de diferentes formas:
-
-		fputc(variables_introducir, Nom_archi_apuntador) para poner caracteres en el archivo. 
-
-**********************************************
-Tarea numero 15 del archivo classworks.txt
-
-**********************************************
-*/
 

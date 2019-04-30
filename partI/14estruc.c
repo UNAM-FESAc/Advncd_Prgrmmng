@@ -1,7 +1,6 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
-
 #include<stdio.h>
 
 // Declaracion de un arreglo de estructuras 

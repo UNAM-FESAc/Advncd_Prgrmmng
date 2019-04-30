@@ -3,7 +3,6 @@
 
 #include<stdio.h>
 
-
 // Declaracion de la estructura
 struct estudiante
 {

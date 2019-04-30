@@ -1,3 +1,5 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 #include <stdio.h>
  
 int main () 
@@ -7,7 +9,7 @@ int main ()
   char caracter;
   
 
-  archivo = fopen ( "03-files01.py", "a" );
+  archivo = fopen ( "03-files01.txt", "a" );
   
   printf("\nIntroduce un texto: \n");
 
@@ -20,7 +22,7 @@ int main ()
  
  fclose ( archivo );
 
-  printf("\nRevisa el archivo prueba.txt\n");    
+  printf("\nRevisa el archivo 03-files01.txt\n");    
 
   return 0;
 }

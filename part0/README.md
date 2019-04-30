@@ -17,6 +17,6 @@ Puedes usar el repositorio que está en el la siguiente liga [:link:](https://gi
 	inicializa algunos elementos en valores diferentes de cero. Por ejemplo:
 	incializa los elementos [1], [2] en 10.0 y 105.3, respectivamente.
 	Observa lo que sucede y comenta tu resultado con los demás compañeros.
-- Crea un arreglo con los días de los meses del año, inicialialice los meses 
-	4, 6 y 12 en cero.
+- Crea un arreglo que contenga el número de días de los meses del año, inicialice los meses 
+	4, 6 y 12 en cero. Discuta sus resultados.
 - *11array.c* Discute lo que se realiza en este código.

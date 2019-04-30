@@ -1,33 +1,15 @@
-/*
-Vamos a ver un puntero a una cadena de caracteres.
-
-*/
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
 #include<stdio.h>
 
-
 int main(){
 
-/*declaramos un array de caracteres*/
 char nombre[]="Javier Orduz"; 
+char * puntero=nombre;
 
-/*Asignamos al puntero el comienzo del array*/
-char *puntero=nombre;
+printf("Nombre almacenado %s \n", puntero);
 
-
-/*Escribimos en pantalla nombre...*/
-printf("%s \n Ingrese otro nombre: \n", puntero);
-
-
-/*leemos otro nombre*/
-gets(puntero); 
-
-
-/*escribimos el nuevo nombre...
-printf("%s\n",puntero); 
-
+return 0;
 }
 
-/*
-Es importante notar la informacion sobre  la funcion gets
-*/

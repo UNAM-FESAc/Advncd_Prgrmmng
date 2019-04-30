@@ -1,3 +1,6 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include<stdio.h>
 #include<stdlib.h>
 #define MAXROWS 20
@@ -39,8 +42,6 @@ return 0;
 }
 
 
-
-// Leer en una tabla de enteros
 void leer_entrada(int * a[MAXROWS], int m, int n)
 {
 int row, col;
@@ -53,10 +54,8 @@ for(row = 0; row < m; ++row)
 	scanf("%d", (*(a + row) + col));
 	}
 }
-
 }
 
-// sumar elementos de dos enteros 
 void cal_suma(int * a[MAXROWS], int * b[MAXROWS], int * c[MAXROWS], int m, int n){
 int row, col;
 
@@ -65,12 +64,9 @@ for (row = 0; row < m; ++row){
 		*(*(c + row) + col) = *(*(a + row) + col) + *(*(b + row) + col);
 		}
 	}
-
 }
 
 
-
-// Escribe en una tabla de enteros
 void escri_salida(int *a[MAXROWS], int m, int n){
 
 int row, col;
@@ -83,16 +79,6 @@ for(row = 0; row < m; ++row){
 			}
 	return;
 }
-
-/*
-El estudiante debe revisar lo que sucede cuando 
-reemplazamos 
-*(*(i + r) + c) 
-por 
-i[r][c]
-*/
-
-
 
 
 

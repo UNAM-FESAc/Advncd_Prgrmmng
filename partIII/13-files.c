@@ -1,7 +1,5 @@
-/*
-Este archivo implementa datos de diferente tipo
-en la terminal y los guarda en un archivo de texto.
-*/
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
 #include <stdio.h>
 void main(){
@@ -31,13 +29,4 @@ FILE *fptr;
     fprintf(fptr, "Numero de cuenta  = %d\n", num_cta);
     fclose(fptr);
         
-    }
-/*
-Ejercicio:
-1) Implementa documentacion interna de este codigo.
-2) Implementa structuras para que se obtenga el
-mismo resultado. Agrega otros miembros, 
-por ejemplo, apellido.
-*/    
-    
-    
+    }    

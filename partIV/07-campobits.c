@@ -1,3 +1,6 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 typedef struct str_bts{
 TIPO nombre: <cantidad_bits>;
 TIPO nombre: <cantidad_bits>;

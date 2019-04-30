@@ -1,18 +1,12 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
-
 #include<stdio.h>
-
-
 	// definimos (sin inicializar) la estructura con rotulo complejo
 
 struct complejo{
   float pre;
   float pim;
 };
-
-
-
 	// La funcion principal
 
 int main(){

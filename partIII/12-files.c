@@ -1,11 +1,8 @@
-/*
-Este archivo toma una cadena, la descompone y la imprime 
-en archivo y terminal.
-*/
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
 
 #include <stdio.h>
 #include <stdlib.h>
-
 
 int main () {
 
@@ -15,9 +12,7 @@ int main () {
 
    fp = fopen ("12-files.txt", "a+t");
    fputs("Somos el grupo 2251", fp);
-
- 	rewind(fp);      
-	
+   rewind(fp);
    fscanf(fp, "%s %s %s %d", cad1, cad2, cad3, &gru);
 
    printf("Lee la cadena 1 |%s|\n", cad1 );
@@ -29,15 +24,5 @@ int main () {
    
    return 0;
 }
-/*
-La funcion rewind coloca el indicador de posicion de fichero, al comienzo del fichero.
-
-Ejercicio:
-
-El estudiante debe modificar el programa para que solicite el numero del grupo por terminal y lo imprima en pantall y en el archivo.
-
-*/
-
-
 
 
