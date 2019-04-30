@@ -1,4 +1,4 @@
-# Course: Programming II (Advanced)
+# Course: Programming II
 *By: Javier A. Orduz-Ducuara*
 
 This is a repository for the programming course 2019-II is hold 
