@@ -17,7 +17,7 @@
 	
 	b. Implementa un código de python dentro de un documento 
 	de LaTeX donde grafiques las funciones trigonométricas: 
-	$`sin x`$ $`\cos{x}`$, $ `tan{x}`$ y $`\cot x`$.
+	$`\sin x, \cos{x}, \tan{x}`$ y $`\cot x`$.
 
 
 <!---
