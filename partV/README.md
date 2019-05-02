@@ -17,6 +17,12 @@
 	
 	b. Implementa un código de python dentro de un documento 
 	de LaTeX donde grafiques las funciones trigonométricas: 
-	$\sin \theta$, \[ \cos \theta \], $\tan \theta$ y $ \cot \theta$ 
-	
+	sin x, cos x, tan x y cot x.
+```Latex
+\sin{x}
+```
+
+```LaTeX
+\sin{x}
+```	
 
