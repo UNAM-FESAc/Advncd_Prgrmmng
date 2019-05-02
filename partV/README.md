@@ -17,47 +17,15 @@
 	
 	b. Implementa un código de python dentro de un documento 
 	de LaTeX donde grafiques las funciones trigonométricas: 
-	sin x, cos x, tan x y cot x.
-```latex
-\sin{x}
-```
-
-```Latex
-\sin{x}
-```
-
-```LaTeX
-\sin{x}
-```	
-
-```LaTeX
-sin x
-```	
-
-```latex
-sin x
-```	
-
-```Latex
-sin x
-```	
-
-$$T^{\mu\nu}=\begin{pmatrix}
-\varepsilon&0&0&0\\
-0&\varepsilon/3&0&0\\
-0&0&\varepsilon/3&0\\
-0&0&0&\varepsilon/3
-\end{pmatrix},$$
-
-Test
-$$\LaTeX$$
+	$`sin x`$ $`\cos{x}`$, $ `tan{x}`$ y $`\cot x`$.
 
 
-
+<!---
 This math is inline $`a^2+b^2=c^2`$.
 
 This is on a separate line
 ```math
 a^2+b^2=c^2
 ```
+--->
 
