@@ -42,11 +42,22 @@ sin x
 sin x
 ```	
 
- `\inline`: $$\inline p={1\over q}$$
-
 $$T^{\mu\nu}=\begin{pmatrix}
 \varepsilon&0&0&0\\
 0&\varepsilon/3&0&0\\
 0&0&\varepsilon/3&0\\
 0&0&0&\varepsilon/3
 \end{pmatrix},$$
+
+Test
+$$\LaTeX$$
+
+
+
+This math is inline $`a^2+b^2=c^2`$.
+
+This is on a separate line
+```math
+a^2+b^2=c^2
+```
+
