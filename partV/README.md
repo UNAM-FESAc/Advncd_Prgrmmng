@@ -1,4 +1,4 @@
-# Ejercicios
+# Ejercicios Generales
 1. Usando graficación en C
 
 	a. Escribe un código que muestre en la pantalla el mensaje 
@@ -8,7 +8,7 @@
 	b. Realice el mismo ejercicio anterior para 5 figuras geométricas; 
 	además que muestre el área, volúmen y otras propiedades de la figura.
 
-2. Usando graficación en LaTeX y Python
+2. Usando graficación en $`\LaTeX`$ y Python
 	
 	a. Dibuja el logo de los juegos olímpicos dentro de un documento 
 	de latex, puedes usar *\usepackage{pstricks}* u otro paquete para 
@@ -16,8 +16,17 @@
 
 	
 	b. Implementa un código de python dentro de un documento 
-	de LaTeX donde grafiques las funciones trigonométricas: 
+	de $`\LaTeX`$ donde grafiques las funciones trigonométricas: 
 	$`\sin x, \cos{x}, \tan{x}`$ y $`\cot x`$.
+
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
 
 
 <!---
@@ -27,5 +36,23 @@ This is on a separate line
 ```math
 a^2+b^2=c^2
 ```
+
+--->
+
+
+<!---
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+References
+https://docs.gitlab.com/ee/user/markdown.html#math
+https://github.com/mathjax/MathJax-docs/blob/master/installation.rst
+https://upmath.me/
+https://github.com/cben/mathdown/wiki/math-in-markdown
 --->
 
