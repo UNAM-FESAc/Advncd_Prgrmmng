@@ -18,6 +18,10 @@
 	b. Implementa un código de python dentro de un documento 
 	de LaTeX donde grafiques las funciones trigonométricas: 
 	sin x, cos x, tan x y cot x.
+```latex
+\sin{x}
+```
+
 ```Latex
 \sin{x}
 ```
@@ -26,3 +30,14 @@
 \sin{x}
 ```	
 
+```LaTeX
+sin x
+```	
+
+```latex
+sin x
+```	
+
+```Latex
+sin x
+```	
