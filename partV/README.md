@@ -41,3 +41,12 @@ sin x
 ```Latex
 sin x
 ```	
+
+ `\inline`: $$\inline p={1\over q}$$
+
+$$T^{\mu\nu}=\begin{pmatrix}
+\varepsilon&0&0&0\\
+0&\varepsilon/3&0&0\\
+0&0&\varepsilon/3&0\\
+0&0&0&\varepsilon/3
+\end{pmatrix},$$
