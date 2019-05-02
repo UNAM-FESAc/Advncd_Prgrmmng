@@ -5,11 +5,8 @@ raamin  = 0.66	# cms
 rzzCms  = 1.3	# atlas
 raaCms  = 0.8	# cms
 
-
-set o '05-gnuplot0.eps'
 set t post 'Helvetica' 12 enhanced color solid
-
-
+set o '05-gnuplot0.eps'
 
 set xr [0:4]
 set yr [0:3]

@@ -1,7 +1,7 @@
 set xr[-5:5]
 set yr[-1:1]
 
-f(m, n)= m*sin(n)
+f(m, n) = m*sin(n)
 
 set style line 1 lc rgb 'red90'
 set style line 2 lc rgb 'green60'

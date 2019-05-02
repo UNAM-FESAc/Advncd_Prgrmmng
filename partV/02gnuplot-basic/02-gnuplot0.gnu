@@ -1,6 +1,5 @@
-set t post enhanced color solid
-set t postscript
-set o '/Users/jaorduz/Dropbox/2017-a/mtrl-clss/gnuplot-basic/02-gnuplot.eps'
+set o '02-gnuplot0.eps'
+set t post 'Helvetica' 12 enhanced color solid
 
 set xr[-5:5]
 set yr[-1:1]

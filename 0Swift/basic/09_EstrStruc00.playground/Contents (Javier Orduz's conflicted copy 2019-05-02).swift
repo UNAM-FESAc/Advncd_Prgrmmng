@@ -4,5 +4,5 @@
 struct Alumno{
     var nombre:String;
     var edad:Int;
-    var apellido:String;
+    var apellido:String?;
 }

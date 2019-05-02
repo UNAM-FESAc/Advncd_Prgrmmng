@@ -1,6 +1,5 @@
-set t post enhanced color solid
-set t postscript
-set o '/Users/jaorduz/Dropbox/2017-a/mtrl-clss/gnuplot-basic/02-gnuplot1.eps'
+set o '02-gnuplot1.eps'
+set t post 'Helvetica' 12 enhanced color solid
 
 set xr[-5:5]
 set yr[-1:1]
@@ -11,6 +10,5 @@ set style line 1 lc rgb 'red10'
 set style line 2 lc rgb 'green10'
 set style line 3 lc rgb 'blue10'
 set style line 4 lc rgb 'magenta10'
-
 
 plot for[i=1:4] f(i, i*x) ls i

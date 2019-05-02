@@ -11,7 +11,7 @@
 2. Usando graficación en LaTeX y Python
 	
 	a. Dibuja el logo de los juegos olímpicos dentro de un documento 
-	de latex, puedes usar *\usepackage{pstricks}* u otro paquete para 
+	de LaTeX, puedes usar *\usepackage{pstricks}* u otro paquete para 
 	graficación dentro de archivos __.tex__.	
 
 	
