@@ -5,7 +5,7 @@
 	- Obtenga un archivo externo que contenga la información
 
 	-------------------------------------------------
-	$`x~~f(x)~~d{f(x)}{dx}~~\frac{d^2f(x)}{dx^2}`$|
+	$`x~~~~~~f(x)~~~~~~d{f(x)}{dx}~~~~~~\frac{d^2f(x)}{dx^2}`$|
 	-------------------------------------------------
 
 	- Escriba un código en Gnuplot que muestre la gráfica de las funciones.
@@ -14,7 +14,7 @@
 	- Obtenga un archivo externo que contenga la información
 
 	-------------------------------------------------------------------------
-	$`x~~y~~f(x, y)~~\int f(x,y)dx~~\int f(x,y)dy~~\int\int f(x,y) dx dy`$|
+	$`x~~~~~~y~~~~~~f(x, y)~~~~~~\int f(x,y)dx~~~~~~\int f(x,y)dy~~~~~~\int\int f(x,y) dx dy`$|
 	-------------------------------------------------------------------------
 
 	- Escriba un código en Gnuplot que muestre la gráfica de las funciones.
