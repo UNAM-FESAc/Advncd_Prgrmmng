@@ -257,20 +257,23 @@ fillcolor=red]
 
 \begin{verbatim}
 \begin{pspicture}(-7.5,-3)(7.5,3)
-  \psaxes[labels=none, labelwidth=13.5pt](0,0)(-7,-2)(7,2)    % establece los ejes
-   \psplot[linecolor=blue, linewidth=1.5pt]% grafica una onda sinusoidal
-     {-7}{7}{x 0.01745329252 div sin}      % observar la expresión en 
-                                           % Notación Polaca Inversa
+  \psaxes[labels=none](0,0)(-7,-2)(7,2)    % establece los ejes
+   \psplot[linecolor=blue, linewidth=1.5pt]
+     {-7}{7}{x 0.01745329252 div sin}      
+   
+ \psplot[linecolor=green, linewidth=1.5pt]
+     {-7}{7}{x 0.01745329252 div cos}    
+           
    \uput[45](3.1415926,0){$\pi$}           % estas son las etiquetas
    \uput[90](-1.570796,0){$-\pi/2$}        % \uput es una caja posicionada en [angulo]
    \uput[-90](1.570796,0){$\pi/2$}         % relativo a la coordenada (x,y)
-   \uput[-135](-3.1415926,0){$-\pi$}       % y poniendo el { contenido } dentro 
-                                           % de la caja
+   \uput[-135](-3.1415926,0){$-\pi$}       % y poniendo el { contenido } dentro de la caja
    \psline[linewidth=1pt,linecolor=red,linestyle=dotted]%   % línea punteada roja
      (1.57079632,1)(1.57079632,0) 
    \psline[linewidth=1pt,linecolor=red,linestyle=dotted]%
      (-1.57079632,-1)(-1.57079632,0) 
  \end{pspicture}
+
 \end{verbatim}
 
 

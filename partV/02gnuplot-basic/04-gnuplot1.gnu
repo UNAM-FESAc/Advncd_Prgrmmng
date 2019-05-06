@@ -1,3 +1,5 @@
+set o '04-gnuplot1.eps'
+set t post enhanced color solid
 set xr[-1:5]
 set yr[-1:1]
 
