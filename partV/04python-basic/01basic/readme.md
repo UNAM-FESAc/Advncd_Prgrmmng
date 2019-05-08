@@ -1,15 +1,15 @@
 # Ejercicios
 
 1. *01-llamarmodulo.py* y *circulo.py* 
-	- Escriba el mismo cÃ³digo en python 3 que:
-		- realice la suma de dos nÃºmeros
+	- Escriba el mismo código en python 3 que:
+		- realice la suma de dos números
 		- realice el producto.
 
 2. *02-StrCtrlIterativa.py*--*03-StrCtrlSelectiva.py*
-	- Escribe un cÃ³digo que 		
-		- realice las cuatro operaciones aritmÃ©ticas bÃ¡sicas.
-		- Cree un mÃ³dulo y llame las funciones en otro archivo.
-		- Pida los nÃºmeros desde la terminal.	
+	- Escribe un código que 
+		- realice las cuatro operaciones aritméticas básicas.
+		- Cree un módulo y llame las funciones en otro archivo.
+		- Pida los números desde la terminal.	
 
 ## Ejercicios especiales
 
