@@ -38,5 +38,6 @@ https://docs.gitlab.com/ee/user/markdown.html#math
 https://github.com/mathjax/MathJax-docs/blob/master/installation.rst
 https://upmath.me/
 https://github.com/cben/mathdown/wiki/math-in-markdown
+https://es.wikibooks.org/wiki/Python/Su_primer_programa_en_Python/La_ruta_de_b%C3%BAsqueda_de_import
 --->
 

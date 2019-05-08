@@ -5,7 +5,7 @@
 	- Obtenga un archivo externo que contenga la información
 
 	-------------------------------------------------
-	$`x~~~~~~f(x)~~~~~~d{f(x)}{dx}~~~~~~\frac{d^2f(x)}{dx^2}`$|
+	$`x~~~~~~f(x)~~~~~~\frac{df(x)}{dx}~~~~~~\frac{d^2f(x)}{dx^2}`$|
 	-------------------------------------------------
 
 	- Escriba un código en Gnuplot que muestre la gráfica de las funciones.
