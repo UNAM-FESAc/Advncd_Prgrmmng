@@ -2,11 +2,11 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-python2 00window1.py
+python3 00window1.py
 """
 
-import Tkinter
+import tkinter
 
-top = Tkinter.Tk()
+top = tkinter.Tk()
 
 top.mainloop()

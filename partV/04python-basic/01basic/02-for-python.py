@@ -5,4 +5,4 @@ Recuerda documentar tus codigos
 """
 animals = ['cat', 'dog', 'mouse', 'horse']
 for animal in animals:
-    print('I have a '+animal)
+    print 'I have a '+animal
