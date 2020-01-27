@@ -18,17 +18,16 @@ programming.
 
    Object                                                         |  Porcentage  |
 ------------------------------------------------------------------| -------------|
-  First exam (11-16 march):                 | 30 %         |
-  Second exam (06-10 may):                 | 30 %         |
-  Final Project (13-17 may):                        | 20 %         |
-  Laboratory jobs and class exercises:                            | 10 %         |
-  Material, homeworks, SAE (web site) and code.org exercises |10 %          |
+  First exam (16-20 march):                 | 30 %         |
+  Second exam (04-08 may):                 | 30 %         |
+  Final Project (11-15 may):                        | 20 %         |
+  Dropbox: Laboratory jobs and class exercises:                            | 10 %         |
+  Material, homeworks, SEA (web site) and code.org exercises |10 %          |
   
 ## Material
 Check the link ([:link:](http://sae.acatlan.unam.mx/)) and log in (out).
 Besides you can download the document used in the class 
-[here](https://www.dropbox.com/s/b629jqs3aat7ohh/prgrmmng_II.pdf?dl=0).
-
+[here](https://www.dropbox.com/s/6h61y5tvjh5htqr/firstprgrmmng_II.pdf?dl=0).
 <!---
 ## Homework (Section is building, the final version will be ready the monday at 9:00am)
 
