@@ -50,8 +50,8 @@ puntos se almacenen en un arreglo.
 
 ## Ejercicios Especiales<a name="ejerciciosespeciales"></a>
 1. Realiza la lectura del documento 
-[descarga](https://www.dropbox.com/s/hs2mw87ukonli4n/08act-prgrmmng.pdf?dl=0), 
-realiza un reporte (usa el documento de la sección [Informe]<a name="InfLabPDF"></a>)
+[(descarga)](https://www.dropbox.com/s/hs2mw87ukonli4n/08act-prgrmmng.pdf?dl=0), 
+realiza un reporte (usa el documento de la sección [Informe](#InfLabPDF)
 y sube reporte a tu dropbox.
 
 2. *10array.c* Incrementa el número de elementos en el arreglo e 
