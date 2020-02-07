@@ -1,4 +1,30 @@
-# Ejercicios:
+
+# Laboratorio: Estructuras<a name="LabActEnsamble"></a>
+
+Los siguientes ejercicios tiene como propósito evaluar (de manera general) 
+al grupo y conocer sobre las habilidades en programación y, además, repasar 
+conceptos **programación.**
+
+En las siguientes líneas encuentras la tabla de contenido de esta carpeta.
+
+## Tabla de Contenido
+1. [Informe de Laboratorio](#InfLabPDF)
+2. [Ejericicios](#ejercicios)
+3. [Ejercicios Especiales](#ejerciciosespeciales)
+<!---4. [Referencias](#referencias)--->
+
+### Informe de laboratorio<a name="InfLabPDF"></a>
+
+Debes realizar un informe de laboratorio que contenga información sobre la 
+lista de [ejercicios especiales](#ejerciciosespeciales) que aparecen en 
+esta sección. El formato para el informe 
+debe seguir el que se muestra en el siguiente archivo:
+[PDF](https://www.dropbox.com/s/9taj0tx5p8s81da/gral-templete.pdf?dl=0). 
+Este formato puede usarse para la entrega de diferentes reportes, incluso 
+tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
+
+
+# Ejercicios:<a name="ejercicios"></a
 1. *00estruc.c*--*07estruc.c* Observa que 
 	- al final de la estructura se debe colocar ";" (punto y coma) 
 	- la ubicación de la definición; 
@@ -70,6 +96,14 @@ c. Crear un documento en el que almacene
 	la temperatura del mes de su lugar de residencia y que permita 
 	actualizar constantemente. Use estructuras.
 
+
+
+# Ejercicios Especiales<a name="ejerciciosespeciales"></a
+
+
+1. Realiza la [lectura](https://www.dropbox.com/s/eh4tfqd7p4h98vm/00struc.pdf?dl=0) (revisa 
+la carpeta de actividades) y realiza un reporte 
+ 
 
 <!---
 

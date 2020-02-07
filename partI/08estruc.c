@@ -3,8 +3,6 @@
 
 #include<stdio.h>
 
-
-
 struct corredor{
 	char nombre[30];
 	short unsigned int edad;
