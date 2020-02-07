@@ -98,7 +98,7 @@ c. Crear un documento en el que almacene
 
 
 
-# Ejercicios Especiales<a name="ejerciciosespeciales"></a
+# Ejercicios Especiales<a name="ejerciciosespeciales"></a>
 
 
 1. Realiza la [lectura](https://www.dropbox.com/s/eh4tfqd7p4h98vm/00struc.pdf?dl=0) (revisa 
