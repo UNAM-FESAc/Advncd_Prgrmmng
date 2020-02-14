@@ -24,7 +24,7 @@ Este formato puede usarse para la entrega de diferentes reportes, incluso
 tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
 
 
-# Ejercicios:<a name="ejercicios"></a
+# Ejercicios:<a name="ejercicios"></a>
 1. *00estruc.c*--*07estruc.c* Observa que 
 	- al final de la estructura se debe colocar ";" (punto y coma) 
 	- la ubicación de la definición; 
@@ -52,6 +52,7 @@ ___
 	operador puntero cuya estructura general es:
 	puntero_estructura -> nombre_miembro = datos;
 	- Observa que se puede implementar un vector en un estructura. Discute con tus compañeros.
+
 5. *11struct.c* Estructuras y funciones. Observa y discute con tus compañeros.
 
 6. *12struct.c* Implementa otras operaciones con las coordenadas del vector.
@@ -102,8 +103,20 @@ c. Crear un documento en el que almacene
 
 
 1. Realiza la [lectura](https://www.dropbox.com/s/eh4tfqd7p4h98vm/00struc.pdf?dl=0) (revisa 
-la carpeta de actividades) y realiza un reporte 
+la carpeta de actividades) y realiza un reporte.
+
+2. Implementa una estructura anidada y un arreglo de estructuras, almacena información, concatena 
+y usa operadores aritméticos para operar sobre los datos almacenados. 
+
+3. Realiza la lectura: [estruturas](https://www.dropbox.com/s/s6tt0zptgo7fajk/01struc.pdf?dl=0) y sigue las instrucciones que aparecen en el documento.
  
+4. Crea un proyecto en C que implemente estructuras, funciones y arreglos en C. El proyecto 
+debe contener al menos tres archivos, incluya una archivo de cabecera, creados por el 
+programador. Además incluya los conceptos de arreglos de estructura, funciones como estructuras, 
+argumento de funciones como estructura y funciones de biblitecas
+
+
+
 
 <!---
 
