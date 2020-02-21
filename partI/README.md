@@ -113,7 +113,7 @@ y usa operadores aritméticos para operar sobre los datos almacenados.
 4. Crea un proyecto en C que implemente estructuras, funciones y arreglos en C. El proyecto 
 debe contener al menos tres archivos, incluya una archivo de cabecera, creados por el 
 programador. Además incluya los conceptos de arreglos de estructura, funciones como estructuras, 
-argumento de funciones como estructura y funciones de biblitecas
+argumento de funciones como estructura y funciones de bibliotecas
 
 
 
