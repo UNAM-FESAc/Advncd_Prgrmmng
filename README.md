@@ -1,5 +1,11 @@
+<!-- badges -->
+[license-badge]: https://img.shields.io/badge/Licencia-CC-orange
+[license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
+[![CC License][license-badge]][license]
+
 # Course: Programming II
-*By: Javier A. Orduz-Ducuara*
+*by: Javier A. Orduz-Ducuara*
+![width='80%'](figs/Header.jpg)
 
 This is a repository for the programming course 2019-II is hold 
 in FESAc. 
