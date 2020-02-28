@@ -1,5 +1,13 @@
+<!-- badges -->
+[license-badge]: https://img.shields.io/badge/Licencia-CC-orange
+[license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
+[![CC License][license-badge]][license]
+
 
 # Laboratorio: Estructuras<a name="LabActEnsamble"></a>
+
+*by: Javier A. Orduz-Ducuara*
+![width='80%'](figs/Header.jpg)
 
 Los siguientes ejercicios tiene como propósito evaluar (de manera general) 
 al grupo y conocer sobre las habilidades en programación y, además, repasar 

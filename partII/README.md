@@ -1,4 +1,32 @@
-# Ejercicios:
+<!-- badges -->
+[license-badge]: https://img.shields.io/badge/Licencia-CC-orange
+[license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
+[![CC License][license-badge]][license]
+
+# Laboratorio: Apuntadores y Memoria Dinámica<a name="labPtDnMmry"></a>
+*by: Javier A. Orduz-Ducuara*
+![width='80%'](figs/Header.jpg)
+
+
+## Tabla de Contenido
+1. [Informe de Laboratorio](#InfLabPDF)
+2. [Ejericicios](#ejercicios)
+3. [Ejercicios Especiales](#ejerciciosespeciales)
+<!---4. [Referencias](#referencias)--->
+
+### Informe de laboratorio<a name="InfLabPDF"></a>
+
+Debes realizar un informe de laboratorio que contenga información sobre la 
+lista de [ejercicios especiales](#ejerciciosespeciales) que aparecen en 
+esta sección. El formato para el informe 
+debe seguir el que se muestra en el siguiente archivo:
+[PDF](https://www.dropbox.com/s/9taj0tx5p8s81da/gral-templete.pdf?dl=0). 
+Este formato puede usarse para la entrega de diferentes reportes, incluso 
+tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
+
+
+# Ejercicios:<a name="ejercicios"></a>
+
 
 1. *00apuntador.c* -- *00apuntador01.c* y *00apuntador02.c* Recordemos el uso de un operador de memoria.
 En los códigos anteriores identifica:
@@ -157,6 +185,11 @@ ___
 
  
 
+
+# Ejercicios Especiales<a name="ejerciciosespeciales"></a>
+
+1. Realiza la [lectura](https://www.dropbox.com/s/2csklifcl9k8s0m/02pointers.pdf?dl=0) (revisa 
+la carpeta de actividades) y realiza un reporte.
 
 ## Agradecimientos
 
