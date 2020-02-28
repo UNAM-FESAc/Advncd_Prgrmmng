@@ -5,7 +5,7 @@
 
 # Laboratorio: Apuntadores y Memoria Dinámica<a name="labPtDnMmry"></a>
 *by: Javier A. Orduz-Ducuara*
-![width='80%'](figs/Header.jpg)
+![width='80%'](../figs/Header.jpg)
 
 
 ## Tabla de Contenido
