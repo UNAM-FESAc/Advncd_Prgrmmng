@@ -19,7 +19,7 @@ En las siguientes líneas encuentras la tabla de contenido de esta carpeta.
 1. [Informe de Laboratorio](#InfLabPDF)
 2. [Ejericicios](#ejercicios)
 3. [Ejercicios Especiales](#ejerciciosespeciales)
-4. [Referencias](#referencias)
+<!---4. [Referencias](#referencias)--->
 
 ### Informe de laboratorio<a name="InfLabPDF"></a>
 
@@ -124,13 +124,7 @@ programador. Además incluya los conceptos de arreglos de estructura, funciones 
 argumento de funciones como estructura y funciones de bibliotecas
 
 
-## Referencias
-1. [geeksforgeeks](https://www.geeksforgeeks.org/enumeration-enum-c/)
-2. [programiz](https://www.programiz.com/c-programming/c-enumeration)
-3. [microsoft](https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference?view=vs-2019)
-4. [microsoft](https://docs.microsoft.com/en-us/cpp/c-language/c-enumeration-declarations?view=vs-201\
-9)
-5. [C++](http://arco.inf-cr.uclm.es/~david.villa/pensar_en_C++/vol1/ch03s08s03.html)
+
 
 <!---
 
