@@ -128,11 +128,10 @@ argumento de funciones como estructura y funciones de bibliotecas
 1. [geeksforgeeks](https://www.geeksforgeeks.org/enumeration-enum-c/)
 2. [programiz](https://www.programiz.com/c-programming/c-enumeration)
 3. [microsoft](https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference?view=vs-2019)
-4. [microsoft](https://docs.microsoft.com/en-us/cpp/c-language/c-enumeration-declarations?view=vs-201\
-9)
 5. [C++](http://arco.inf-cr.uclm.es/~david.villa/pensar_en_C++/vol1/ch03s08s03.html)
 
 <!---
+4. [microsoft](https://docs.microsoft.com/en-us/cpp/c-language/c-enumeration-declarations?view=vs-2019)
 
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
