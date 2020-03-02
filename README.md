@@ -36,6 +36,18 @@ Besides you can download the document used in:
 1. the first class [here](https://www.dropbox.com/s/6h61y5tvjh5htqr/firstprgrmmng_II.pdf?dl=0) and 
 2. the each class  [here](https://www.dropbox.com/s/nxp8bva28h9o0f8/prgrmmng_II.pdf?dl=0).
 
+
+
+## Eventos
+Además de la siguiente información puedes revisar el sitio [yeyecoa](http://www.yeyecoa.acatlan.unam.mx/)
+
+
+![width='40%'](figs/CTIM2020I.jpeg)
+**Figure 1**: STEM (CTIM) seminar 2020. 
+
+
+
+
 <!---
 ## Homework (Section is building, the final version will be ready the monday at 9:00am)
 
