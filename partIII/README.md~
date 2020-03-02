@@ -91,7 +91,8 @@ tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
 	- Implemente documentación interna.
 	- Modifique los parámetros del "Modo de archivo"
 
-## Ejercicios especiales
+## Ejercicios especiales<a name="ejerciciosespeciales"></a> 
+
 - Implementa una las funciones __m(c)alloc()__, __realloc()__ y __free()__. 
 	Permita la manipulación de archivos externos e implemente __struct__, 
 	__typedef__ y apuntadores, además de otros conceptos discutidos en clase 

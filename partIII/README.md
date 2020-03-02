@@ -119,8 +119,8 @@ tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
 	¿quién es el presidente de algún país?, etc.
 
 
-## Ejercicios Especiales <a name="ejerciciosespeciales"></a>
-<!---
 
+<!---
+## Referencias <a name="referencias"></a>
 
 --->
