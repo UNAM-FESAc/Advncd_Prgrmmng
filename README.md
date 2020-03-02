@@ -3,7 +3,7 @@
 [license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
 [![CC License][license-badge]][license]
 
-# Course: Programming II
+# Course: Advanced Programming
 *by: Javier A. Orduz-Ducuara*
 ![width='80%'](figs/Header.jpg)
 
@@ -43,6 +43,7 @@ Además de la siguiente información puedes revisar el sitio [yeyecoa](http://ww
 
 
 ![width='40%'](figs/CTIM2020I.jpeg)
+
 **Figure 1**: STEM (CTIM) seminar 2020. 
 
 
