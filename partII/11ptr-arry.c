@@ -1,6 +1,6 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
-
+// durabilidad, visibilidad y ambito
 #include<stdio.h>
 
 int main(){
