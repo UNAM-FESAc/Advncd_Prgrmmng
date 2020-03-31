@@ -16,7 +16,7 @@ printf("Ingrese %d numeros\n", dt);
 
 for(i = 0; i < dt; ++i)
 {
-	scanf("%d", &clases[i]);
+	scanf("%d",  &clases[i]);
 	sum += clases[i];
 }
 

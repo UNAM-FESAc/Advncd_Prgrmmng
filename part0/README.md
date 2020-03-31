@@ -1,5 +1,14 @@
+<!-- badges -->
+[license-badge]: https://img.shields.io/badge/Licencia-CC-orange
+[license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
+[![CC License][license-badge]][license]
 
-# Laboratorio: Actividad de ensamble<a name="LabActEnsamble"><\a>
+
+# Laboratorio: Actividad de ensamble<a name="LabActEnsamble"></a>
+*by: Javier A. Orduz-Ducuara*
+![width='80%'](../figs/Header.jpg)
+
+
 
 Los siguientes ejercicios tiene como propósito evaluar (de manera general) 
 al grupo y conocer sobre las habilidades en programación y, además, repasar 
@@ -13,7 +22,7 @@ En las siguientes líneas encuentras la tabla de contenido de esta carpeta.
 3. [Ejercicios Especiales](#ejerciciosespeciales)
 3. [Referencias](#referencias)
 
-### Informe de laboratorio<a name="InfLabPDF"><\a>
+### Informe de laboratorio<a name="InfLabPDF"></a>
 
 Debes realizar un informe de laboratorio que contenga información sobre la 
 lista de [ejercicios especiales](#ejerciciosespeciales) que aparecen en 
@@ -25,13 +34,13 @@ tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
 
 
 
-# Actividad de ensamble<a name="LabActEnsamble"><\a>
+# Actividad de ensamble<a name="LabActEnsamble"></a>
 
 Realizaremos una actividad con el propósito de 
 homologar algunos conocimientos y recordar 
 algunos conceptos.
 
-## Ejercicios <a name="ejercicios"><\a>
+## Ejercicios <a name="ejercicios"></a>
 
 En esta parte se invita a la discusión y se proponen los siguiente
 ejercicios de programaci\'on. Los puede realizar en  papel.
@@ -48,7 +57,7 @@ liga [:link:](https://github.com/UNAM-FESAc/c-prgrmmng-I-FESAc)
 puntos se almacenen en un arreglo.
 5. Realiza el mismo ejercicio anterior para 10 pares de números.
 
-## Ejercicios Especiales<a name="ejerciciosespeciales"><\a>
+## Ejercicios Especiales<a name="ejerciciosespeciales"></a>
 1. Realiza la lectura del documento 
 [(descarga)](https://www.dropbox.com/s/hs2mw87ukonli4n/08act-prgrmmng.pdf?dl=0), 
 realiza un reporte (usa el documento de la sección [Informe](#InfLabPDF)
