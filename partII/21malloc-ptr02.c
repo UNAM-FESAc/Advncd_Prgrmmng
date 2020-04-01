@@ -9,12 +9,12 @@ int main() {
 
    char name[80];
    char *description;
-   strcpy(name, "Jose Perez y Juan Rodriguez son ");
+   strcpy(name, "Jose Perez y Juan Rodriguez son amigos y ");
 
 description = malloc( n * sizeof(char) );
 
 strcpy(description, "estudiantes de Programacion II en la carrera de \
-MAC en la Faculatad de estudios superiores acatlan, ubicada en Naucalpan.");
+MAC en la Facultad de estudios superiores acatlan, ubicada en Naucalpan.");
 
 
    printf("Nombre = %s\n", name );
