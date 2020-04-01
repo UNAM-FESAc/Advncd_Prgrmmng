@@ -1,8 +1,3 @@
-
-
-
-
-
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
