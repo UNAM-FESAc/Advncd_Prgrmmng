@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define nold 1
-#define nnew 10
+#define nold 10
+#define nnew 100
 
 int main(void)
 {

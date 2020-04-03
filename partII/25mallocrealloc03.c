@@ -1,6 +1,7 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
-
+// Ejercicios:
+// 1. Revisa la ubicación de la funcion free(pdatA) y free(pdatB)
 #include <stdio.h>
 #include <stdlib.h>
 #define nold 1
