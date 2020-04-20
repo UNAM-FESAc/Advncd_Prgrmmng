@@ -5,7 +5,7 @@
 int main () 
 {
   FILE * archivo;
-  archivo = fopen ( "prueba.txt", "a" );
+  archivo = fopen ("prueba.txt", "a");
   fclose ( archivo );
   return 0;
 }

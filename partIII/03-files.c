@@ -4,26 +4,17 @@
  
 int main () 
 {
-  FILE *archivo;
-  
+  FILE * archivo;
   char caracter;
-  
-
-  archivo = fopen ( "03-files01.txt", "a" );
+  archivo = fopen ( "03-files01.txt", "w" );// asigna fopen() a archivo
   
   printf("\nIntroduce un texto: \n");
-
   
   while((caracter = getchar()) != '\n')
-    {
-	fputc(caracter, archivo);
-    }
+    {fputc(caracter, archivo);}
 
- 
- fclose ( archivo );
-
+ fclose ( archivo ); // cerrar el archivo
   printf("\nRevisa el archivo 03-files01.txt\n");    
-
   return 0;
 }
 
