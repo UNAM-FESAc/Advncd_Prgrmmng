@@ -1,1 +1,1 @@
-Este es tu cursde programacion en C.
+Este es tu curso de programacion en C.

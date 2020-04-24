@@ -4,21 +4,21 @@
 #include <stdio.h>
 #include <stdlib.h>
  
-void main()
+int main()
 {
     FILE * fptr;
-    char filename[15];
-    char ch[20];
+    char filename[20];
  
     printf("Ingrese el nombre del archivo que se leera (no olvide la extension)\n");
     scanf("%s", filename);
     fptr = fopen(filename, "w");
     if (fptr == NULL)
     {
-        printf("No puede abrir el archivo \n");
+        printf("No puede crear el archivo \n");
         exit(0);
     }
     fclose(fptr);
    printf ("\n");
+   return 0;
 }
 
