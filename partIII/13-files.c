@@ -2,8 +2,8 @@
 // Recuerda documentar tus codigos
 
 #include <stdio.h>
-void main(){
-
+#include <stdlib.h>
+int main(){
 FILE *fptr;
     char nombre[20];
     int edad;
@@ -14,7 +14,7 @@ FILE *fptr;
     if (fptr == NULL)
     {
         printf("Error: el archivo no existe \n");
-        return;
+        exit(0);
     }
     printf("Ingrese su nombre \n");
     scanf("%s", nombre);
@@ -27,6 +27,6 @@ FILE *fptr;
     printf("Ingrese su numero de cuenta\n");
     scanf("%d", &num_cta);
     fprintf(fptr, "Numero de cuenta  = %d\n", num_cta);
-    fclose(fptr);
-        
+    fclose(fptr);        
+    return 0;
     }    

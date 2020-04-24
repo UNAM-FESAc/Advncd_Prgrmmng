@@ -1,2 +1,4 @@
-El caracter es...j
-El caracter es...t
+El caracter es...a
+El caracter es...b
+El caracter es...c
+El caracter es...d

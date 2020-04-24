@@ -1,0 +1,3 @@
+Nombre: Javier
+Edad     = 25
+Numero de cuenta  = 0

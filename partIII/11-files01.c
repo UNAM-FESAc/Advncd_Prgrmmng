@@ -15,7 +15,6 @@ int main()
     struct data Dat;
 
     FILE *pFa,*pFb;
-
     pFa = fopen("11-files01.txt", "a");
     pFb = fopen("11-files01.txt", "r");
     printf("Nombre y edad:");

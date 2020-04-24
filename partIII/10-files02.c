@@ -6,8 +6,7 @@
 #define n 10
 int main () {
   FILE * fptr;
-  char * cr;
-  cr=(char*) malloc(n*sizeof(cr));
+  char * cr = (char*) malloc(n*sizeof(cr));
 
   fptr = fopen("10-files00.txt","r");
    if(fgets(cr,n*sizeof(cr), fptr)!=NULL) {

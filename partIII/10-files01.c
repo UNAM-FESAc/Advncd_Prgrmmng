@@ -5,11 +5,11 @@
 
 int main () {
   FILE * fptr;
-  char cr[50];
+  char cr[70];
 
   fptr = fopen("10-files00.txt","r");
-   if(fgets(cr, 50, fptr)!=NULL) {
-      puts(cr);
+   if(fgets(cr, 70, fptr)!=NULL) {
+      puts(cr);   
    }
 fclose(fptr);
    

@@ -12,6 +12,5 @@ int main(){
   fclose(fptr);
 
   printf("El caracter del archivo es...%c\n", cr);
-
   return 0;
 }

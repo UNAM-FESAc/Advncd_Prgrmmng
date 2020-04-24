@@ -6,11 +6,11 @@
 int main(){
   FILE * fptr;
 
-  char cad[160] = "Bienvenidos al curso de programacion estudiantes de MAC";
+char cad[160] = "Bienvenidos al curso de programacion estudiantes de MAC G2251";
 
-  fptr = fopen("10-files00.txt","w");
-  fputs(cad, fptr);
+fptr = fopen("10-files00.txt","w");
+fputs(cad, fptr);
 
 fclose(fptr);
-  return 0;
+return 0;
 }

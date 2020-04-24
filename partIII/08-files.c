@@ -7,7 +7,6 @@ int main(){
   FILE * fptr1;
   char c1;
 
-
   printf("Introduce un caracter \n");
   scanf("%c", &c1);
 
@@ -15,8 +14,6 @@ int main(){
   fputc(c1, fptr1);
 
   fclose(fptr1);
-
-
 
 return 0;
 }

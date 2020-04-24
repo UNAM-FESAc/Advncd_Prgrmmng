@@ -11,7 +11,7 @@ int main () {
    FILE * fp;
 
    fp = fopen ("12-files.txt", "a+t");
-   fputs("Somos el grupo 2251", fp);
+   fputs("Somos el grupo 2251\n", fp);
    rewind(fp);
    fscanf(fp, "%s %s %s %d", cad1, cad2, cad3, &gru);
 
