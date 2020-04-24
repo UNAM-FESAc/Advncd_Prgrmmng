@@ -5,9 +5,11 @@
 int main () 
 {
   FILE * archivo;
-  char nom[] = "licencia.est";
+  char nom[] = "licencia0.est";
   archivo = fopen ( nom, "a" );
+
   fclose ( archivo );
+
   return 0;
 }
 
