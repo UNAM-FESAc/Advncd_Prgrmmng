@@ -1,10 +1,8 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
-//https://www.programmingsimplified.com/c/graphics.h
-// https://www.cs.colorado.edu/~main/bgi/doc/
 #include<graphics.h>
-#include<SDL_bgi.h>
+
 
 int main()
 {
