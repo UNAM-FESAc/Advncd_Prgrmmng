@@ -6,13 +6,15 @@
 int main()
 {
 FILE * archivo16;
-char calificaciones[25] = "16-files.bin";
-int leer[10], i;
+char calificaciones[15] = "16-files.bin";
+int leer[15], i;
 
-archivo16 = fopen(calificaciones, "rb" );
+archivo16 = fopen(calificaciones, "r+b" );
 printf( "\nLeyendo los datos del archivo \"%s\":\n", calificaciones); 
 rewind(archivo16);
-fread( leer, sizeof(int), sizeof(calificaciones[25]), archivo16 );
+
+fread( leer, sizeof(int), sizeof(calificaciones), archivo16 );
+
 for( i=0; i<9; i++ ){printf( "%d\t", leer[i] );}
 printf( "\n");
 fclose(archivo16);

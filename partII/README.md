@@ -89,7 +89,7 @@ En los códigos anteriores identifica:
 		- Realiza los cambios sugeridos en el inciso 10.
 		- Realiza las tablas de multiplicar usando un arreglo, una estructura iterativa	
 		y las relaciones entre arreglos y apuntadores discutidos hasta este momento.
-	-*13ptr-arry03.c* Implementa:
+	-*13ptr-arry04.c* Implementa:
 		- Otras formas de obtener las direcciones de memoria y los 
 		valores contenidos (vocales) en las variables.
 		- Las vocales en minúsculas y sus valores en código ascii.

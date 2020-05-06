@@ -44,10 +44,15 @@ por ejemplo, rotación o translación.
 
 2. http://www.gnu.org/software/ncurses/
 
+3. https://askubuntu.com/questions/525051/how-do-i-use-graphics-h-in-ubuntu
+
 
 
 
 <!---
+
+gcc demo.c -o demo -lgraph
+
 int gety(void);
 
 void moveto(int x, int y);

@@ -8,8 +8,8 @@ int main()
  int gd = DETECT, gm;
 initgraph(&gd, &gm, NULL);
 
- delay(9000);
-  closegraph();
+ delay(5000);
+ closegraph();
     return 0;
 }
 
