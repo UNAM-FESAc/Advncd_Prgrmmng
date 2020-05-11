@@ -11,8 +11,6 @@ initgraph(&gd, &gm, NULL);
 
 
     	circle(50, 50, 30);
-    	setcolor(GREEN);
-    	circle(200, 200, 100);
 
     	delay(5000);
     	closegraph();

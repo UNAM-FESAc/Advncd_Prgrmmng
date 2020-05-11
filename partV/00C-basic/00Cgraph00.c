@@ -6,7 +6,7 @@
 
 int main()
 {
- int gd = DETECT, gm;
+int gd = DETECT, gm;
 initgraph(&gd, &gm, NULL);
 
  delay(5000);

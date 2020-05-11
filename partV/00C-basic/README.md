@@ -85,6 +85,7 @@ por ejemplo, rotación o translación.
 
 5. https://www.cs.colorado.edu/~main/bgi/doc/
 
+6. https://singhgurjot.wordpress.com/2011/10/26/how-to-use-graphics-h-in-ubuntu/ 
 
 
 <!---

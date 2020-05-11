@@ -1,22 +1,21 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
+// circle(int xc, int yc, int radius);
 
 #include<graphics.h>
-X
 
 int main()
 {
-int gd = DETECT, gm;
+ int gd = DETECT, gm;
 initgraph(&gd, &gm, NULL);
 
 
-setcolor(GREEN);
-	for(int i=0; i<=600; i=i+50){
-	bar(100+i, 150, 200+i, 350);
-	delay(2000);
-	cleardevice();
-	};
-closegraph();
+    	circle(50, 50, 30);
+    	setcolor(GREEN);
+    	circle(200, 200, 100);
+
+    	delay(5000);
+    	closegraph();
     return 0;
 }
 

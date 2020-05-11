@@ -1,31 +1,37 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
-#include <GL/gl.h>
-#include <GL/glut.h>
-#include <GL/glu.h>
+#include<graphics.h>
 
-void setup() {  
-glClearColor(1.0f, 1.0f, 1.0f, 1.0f); 
+
+int main()
+{
+ int gd = DETECT, gm;
+initgraph(&gd, &gm, NULL);
+
+//setbkcolor(WHITE);
+
+//setcolor(BROWN);
+	rectangle(150,180,250,300);
+	rectangle(250,180,420,300);
+	rectangle(180,250,220,300);
+
+	line(200,100,150,180);
+	line(200,100,250,180);
+	line(200,100,370,100);
+	line(370,100,420,180);
+
+
+	floodfill(152, 182, WHITE);
+//	floodfill(252, 182, WHITE);
+//	floodfill(182, 252, WHITE);
+//	floodfill(200, 105, WHITE);
+//	floodfill(210, 105, WHITE);
+
+
+	getch();
+	closegraph();
+
+    return 0;
 }
 
-//void display()
-//   {
-//      glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-//      glColor3f(0.0f, 0.0f, 0.0f);
-//      glRectf(-0.75f,0.75f, 0.75f, -0.75f);
-//      glutSwapBuffers();
-//   }
-
-int main(int argc, char *argv[])
-  {
-     glutInit(&argc, argv);
-//     glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_DOUBLE);
-//     glutInitWindowSize(800,600);
-     glutCreateWindow("Hello World");
-
-     setup();
-//     glutDisplayFunc(display);
-     glutMainLoop();
-     return 0;
-  }

@@ -5,7 +5,7 @@
  
 int main () 
 {
-  int a= 86;
+  int a = 86;
   int resultado;
   printf("a = %d\n", a);
 resultado = a>>1;

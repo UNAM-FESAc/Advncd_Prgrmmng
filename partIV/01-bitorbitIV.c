@@ -5,8 +5,8 @@
  
 int main () 
 {
-  int a= 23;
-  int b = 90;
+  int a= 2;
+  int b = 2;
   int resultado;
   printf("a = %d y b = %d\n", a, b);
   resultado = a | b;

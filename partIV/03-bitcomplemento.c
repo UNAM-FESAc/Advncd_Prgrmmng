@@ -5,7 +5,7 @@
  
 int main () 
 {
-  int a= 4;
+  int a = 20;
   int resultado;
   printf("a = %d\n", a);
   resultado = ~a;

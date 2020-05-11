@@ -2,14 +2,16 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-python2 00window2.py
+python2 00window2.py -> Tkinter
+python3 00window2.py -> tkinter
+
 """
 
-import Tkinter
+import tkinter as tk
 
-top = Tkinter.Tk()
+top = tk.Tk()
 
-B = Tkinter.Button(top, text ="Hi, Javier! What are you doing")
+B = tk.Button(top, text ="Hi, Javier! What are you doing")
 
 B.pack()
 
