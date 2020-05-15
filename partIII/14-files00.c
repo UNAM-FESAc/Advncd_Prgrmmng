@@ -10,7 +10,7 @@ int main () {
    fp = fopen("14-files00.txt","w");
 
    fputs("Este es tu curso ", fp);
-   fseek( fp, 17, SEEK_SET);
+   fseek( fp, 17, SEEK_CUR);
    fputs("de programacion en C.\n", fp);
 
    fclose(fp);

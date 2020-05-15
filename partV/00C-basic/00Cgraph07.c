@@ -1,27 +1,24 @@
 /* ********************* TEXTO SIN ACENTOS *********************/
 // Recuerda documentar tus codigos
 
-#include <graphics.h>
+#include<graphics.h>
 
 int main()
 {
-	int gd=DETECT,gm;
-	initgraph(&gd,&gm,NULL);
-
-	line(0,getmaxy()/2,getmaxx(),getmaxy()/2);
-	line(getmaxx()/2,0,getmaxx()/2,getmaxy());
-
-	setcolor(BLUE);
-	circle(getmaxx()/2,getmaxy()/2,150);
+ int gd = DETECT, gm;
+initgraph(&gd, &gm, NULL);
 
 	setcolor(GREEN);
-	circle(getmaxx()/2,getmaxy()/2,75);
-
+	for(int i=0; i<=300; i=i+50){
+	bar3d(50+i, 50, 100+i, 150, 10, 10);
+	delay(1000);
+	cleardevice();
+	};
 	setcolor(RED);
-	circle(getmaxx()/2,getmaxy()/2,25);
-
-
-	delay(9000);
+	bar3d(100, 150, 200, 350, 20, 20);
+	delay(5000);
 	closegraph();
-	return 0;
+    return 0;
 }
+
+

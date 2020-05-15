@@ -5,12 +5,12 @@
  
 int main () 
 {
-  int a= 23;
-  int b = 90;
+  char a = 'A';
+  char b = 'B';
   int resultado;
-  printf("a = %d y b = %d\n", a, b);
+  printf("a = %c y b = %c\n", a, b);
   resultado = a & b;
-  printf("a & b  = %d\n",resultado);
+  printf("a & b  = %c\n",resultado);
   return 0;
 }
 

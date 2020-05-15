@@ -1,7 +1,42 @@
-# Graficación con C
+<!-- badges -->
+[license-badge]: https://img.shields.io/badge/Licencia-CC-orange
+[license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
+[![CC License][license-badge]][license]
 
-1. Investiga e implementa sobre las siguientes funciones en C. Algunas 
-ya se implementaron en códigos compartidos en clase.
+
+# Laboratorio: Graficación con C<a name="graficacion"></a>
+
+*by: Javier A. Orduz-Ducuara*
+![width='80%'](../figs/Header.jpg)
+
+Los siguientes ejercicios tiene como propósito evaluar (de manera general) 
+al grupo y conocer sobre las habilidades en programación y, además, repasar 
+conceptos **programación.**
+
+En las siguientes líneas encuentras la tabla de contenido de esta carpeta.
+
+## Tabla de Contenido
+1. [Informe de Laboratorio](#InfLabPDF)
+2. [Ejericicios](#ejercicios)
+<!--3. [Ejercicios Especiales](#ejerciciosespeciales)-->
+4. [Referencias](#referencias)
+
+
+### Informe de laboratorio<a name="InfLabPDF"></a>
+
+Debes realizar un informe de laboratorio que contenga información sobre la 
+lista de [ejercicios especiales](#ejerciciosespeciales) que aparecen en 
+esta sección. El formato para el informe 
+debe seguir el que se muestra en el siguiente archivo:
+[PDF](https://www.dropbox.com/s/9taj0tx5p8s81da/gral-templete.pdf?dl=0). 
+Este formato puede usarse para la entrega de diferentes reportes, incluso 
+tu proyecto final. Coloca tu documento (PDF) en tu dropbox.
+
+
+# Ejercicios:<a name="ejercicios"></a>
+
+1. Investiga e implementa sobre las siguientes funciones para 
+graficación en C. Algunas ya se implementaron en códigos compartidos en clase.
 Implementar movimiento en una figura geométrica; 
 por ejemplo, rotación o translación.
  gety(),
@@ -39,15 +74,24 @@ por ejemplo, rotación o translación.
  textwidth().
 
 
-# Referencias
+# Referencias<a name="referencias"></a>
 1. http://es.tldp.org/LinuxFocus/pub/mirror/LinuxFocus/Castellano/March2002/article233.shtml
 
 2. http://www.gnu.org/software/ncurses/
 
+3. https://askubuntu.com/questions/525051/how-do-i-use-graphics-h-in-ubuntu
 
+4. https://www.programmingsimplified.com/c/graphics.h
+
+5. https://www.cs.colorado.edu/~main/bgi/doc/
+
+6. https://singhgurjot.wordpress.com/2011/10/26/how-to-use-graphics-h-in-ubuntu/ 
 
 
 <!---
+
+gcc demo.c -o demo -lgraph
+
 int gety(void);
 
 void moveto(int x, int y);
