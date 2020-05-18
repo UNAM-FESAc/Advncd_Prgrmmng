@@ -32,7 +32,7 @@ alpha(rhAA, vv) 	= abs(asin(rhAA) + atan(vv))
 cossin(rhAA, vv)	= abs(cos(alpha(rhAA, vv))/sin(atan(vv)))
 coscos(rhAA, vv)	= abs(cos(alpha(rhAA, vv))/cos(atan(vv)))
 sincos(rhAA, vv)	= abs(-sin(alpha(rhAA, vv))/cos(atan(vv)))
-sinsin(rhAA, vv)	= abs(-sin(alpha(rhAA, vv))/sin(atan(vv)))
+sinsin(rhAA, vv)		= abs(-sin(alpha(rhAA, vv))/sin(atan(vv)))
 
 
 #set label "R_{ZZ} = 1.2" 				at 1, 2.7,1.0
