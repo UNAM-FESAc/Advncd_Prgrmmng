@@ -16,10 +16,10 @@ El estudiante debe:
 """
 
 
-from visual import *
-
-iniciar_enter=raw_input("Presione enter para empezar")
-print iniciar_enter
+#from visual import *
+from vpython import *
+iniciar_enter=input("Presione enter para empezar")
+print(iniciar_enter)
 
 side = 6.0
 thk = 0.3

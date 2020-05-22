@@ -2,23 +2,22 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-python2 00window4.py
+python3 00window4.py
 """
-import Tkinter
-
-top = Tkinter.Tk()
+import tkinter as tk
+top = tk.Tk()
 
 top.title("Titulo chido")
 top.geometry("300x300")
 
-lbl=Tkinter.Label(top, text="Un mensaje")
+lbl=tk.Label(top, text="Un mensaje")
 
-entra= Tkinter.Entry(top)
+entra= tk.Entry(top)
 
 
-B = Tkinter.Button(top, text ="Hi, Javier! What are you doing")
+B = tk.Button(top, text ="Hi, Javier! What are you doing")
 
-entrb= Tkinter.Entry(top)
+entrb= tk.Entry(top)
 
 entra.pack()
 B.pack()

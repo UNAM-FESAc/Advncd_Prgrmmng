@@ -2,19 +2,20 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-python2 00window6.py
+python3 00window6.py
 """
 
-import Tkinter
-import tkMessageBox
+import tkinter as tk
+from tkinter import messagebox
+#import tkMessageBox
 
-top = Tkinter.Tk()
+top = tk.Tk()
 
 def helloCallBack():
-    tkMessageBox.showinfo( "Hello Javier Orduz", "Hello how are you, Javier?")
+    messagebox.showinfo( "Hello Javier Orduz", "Hello how are you, Javier?")
 
 
-B = Tkinter.Button(top, text ="Hi, Javier! What are you doing", command = helloCallBack)
+B = tk.Button(top, text ="Hi, Javier! What are you doing", command = helloCallBack)
 
 B.pack()
 

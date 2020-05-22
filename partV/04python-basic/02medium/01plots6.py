@@ -4,13 +4,27 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-pythonw 01plots6.py
+python 01plots6.py
+
+
 """
 
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-10, 10, 10)
+y1, y2 = (x ** 2, x**3-10)
+
+plt.subplot(1,2,1)
+plt.plot(x, y1, 'r--')
+plt.subplot(1,2,2)
+plt.plot(x, y2, 'g*-');
+plt.show()
+
+"""
 import wx, os
  
 class MainWindow(wx.Frame):
-    """ Una clase personalizada de frame """
     def __init__(self, parent, title):
          
         # El "-1" en el parámetro de tamaño indica a wxWidgets un tamaño por defecto
@@ -71,7 +85,6 @@ class MainWindow(wx.Frame):
          
     def OnOpen(self,e):
         # Podemos crear un evento extra para abrir un fichero de texto
-        """ Abrir un fichero"""
         self.dirname = ''
         dlg = wx.FileDialog(self, "Elige un fichero", self.dirname, "", "*.*", wx.OPEN)
         if dlg.ShowModal() == wx.ID_OK:
@@ -86,3 +99,4 @@ class MainWindow(wx.Frame):
 app = wx.App(False)
 frame = MainWindow(None, "Editor simple")
 app.MainLoop()
+"""

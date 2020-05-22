@@ -2,24 +2,24 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-python2 00window5.py
+python3 00window5.py
 """
 
-import Tkinter
+import tkinter as tk
 
-top = Tkinter.Tk()
+top = tk.Tk()
 top.title("Titulo chido")
 top.geometry("300x300")
 
-lbla=Tkinter.Label(top, text="Usuario", bg = "#a1dbcd")
+lbla=tk.Label(top, text="Usuario", bg = "#a1dbcd")
 
-entra= Tkinter.Entry(top)
+entra= tk.Entry(top)
 
-lblb=Tkinter.Label(top, text="Contrasena")
+lblb=tk.Label(top, text="Contrasena")
 
-entrb= Tkinter.Entry(top)
+entrb= tk.Entry(top)
 
-btna = Tkinter.Button(top, text ="Ingresa")
+btna = tk.Button(top, text ="Ingresa")
 """
 Cambia el orden de las siguientes lineas 
 y comenta lo que sucede

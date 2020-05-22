@@ -5,13 +5,14 @@ Recuerda documentar tus codigos
 python2 00window3.py
 """
 
-import Tkinter
+import tkinter as tk
 
-top = Tkinter.Tk()
+top = tk.Tk()
 
 top.title("Titulo chido")
 top.geometry("300x300")
-B = Tkinter.Button(top, text ="Hi, Javier! What are you doing")
+
+B = tk.Button(top, text ="Hi, Javier! What are you doing")
 
 B.pack()
 

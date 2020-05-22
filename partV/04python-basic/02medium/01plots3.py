@@ -2,7 +2,7 @@
 TEXTO SIN ACENTOS
 Recuerda documentar tus codigos
 
-python(w) 01plots3.py
+python 01plots3.py
 """
 
 

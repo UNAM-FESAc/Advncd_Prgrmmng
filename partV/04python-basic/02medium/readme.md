@@ -114,6 +114,7 @@ Buenas practicas:
 7. https://www.tutorialspoint.com/python/tk_button.htm
 8. https://docs.anaconda.com/
 9. https://anaconda.org/anaconda/wxpython 
+10. https://www.eumus.edu.uy/eme/ensenanza/electivas/python/CursoPython_clase11.html
 
 Es posible que haya olvidado algunas referencias, 
 si encuentra alguna referencia o quiere aportar 

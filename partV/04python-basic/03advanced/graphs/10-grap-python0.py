@@ -1,5 +1,5 @@
-from visual import *
-
+#from visual import *
+from vpython import *
 floor = box(pos=vector(0, -0.02, 0), size = vector(2, 0.02,0.4), color=color.yellow)
 ball = sphere(pos = vector(-1,0,0), radius = 0.02, color=color.red, make_trail=True)
 
