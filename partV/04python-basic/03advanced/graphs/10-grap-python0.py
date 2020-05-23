@@ -1,5 +1,6 @@
 #from visual import *
 from vpython import *
+
 floor = box(pos=vector(0, -0.02, 0), size = vector(2, 0.02,0.4), color=color.yellow)
 ball = sphere(pos = vector(-1,0,0), radius = 0.02, color=color.red, make_trail=True)
 
@@ -13,7 +14,7 @@ ball.p = ball.m*v0*vector(cos(theta*pi/180),sin(theta*pi/180),0)
 t =0
 dt =0.001
 while ball.pos.y>=0:
-  rate(100)
+  rate(70)
   Fnet= ball.m*g
   ball.p= ball.p+Fnet*dt
   ball.pos =ball.pos+(ball.p/ball.m)*dt

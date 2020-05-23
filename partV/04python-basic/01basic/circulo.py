@@ -25,3 +25,4 @@ Algunas consideraciones:
 - Hay diferencias entre las versiones de Python.
 - Python (2) es sensible a mayusculas y minusculas.
 """
+

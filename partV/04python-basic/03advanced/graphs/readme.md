@@ -1,3 +1,8 @@
+# Algunas notas importantes:
+
+Para la implementaci'on
+
+
 Tarea:
 El estudiante debe revisar matplotlib
 

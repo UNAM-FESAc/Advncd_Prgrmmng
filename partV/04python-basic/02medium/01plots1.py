@@ -16,6 +16,7 @@ pylab.show()
 
 from pylab import *
 
+
 figure()
 plot([1,2,3,4],[1,7,3,5])
 show()
